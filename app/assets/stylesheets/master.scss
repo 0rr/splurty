@@ -1,4 +1,8 @@
+
 @import "bootstrap";
+/*@import url('https://fonts.googleapis.com/css?family=Questrial');*/
+
+
 
 .clear{
   clear: both;
@@ -37,7 +41,9 @@
 .links a{
   color: black;
   font-size: 25px;
+  font-weight: bold;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'source_sans_proregular', sans-serif;
 }
 
 .header{
@@ -46,4 +52,21 @@
 
 hr{
   clear: both;
+}
+
+h1{
+  /*font-family: "Helvetica Neue", Helvetica, sans-serif;*/
+  font-family: 'source_sans_proregular', sans-serif;
+  font-weight: 800;
+  letter-spacing: -1.5px;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+h2{
+  /*font-family: "Helvetica Neue", Helvetica, sans-serif;*/
+  /*font-family: 'Questrial', sans-serif;*/
+  font-family: 'source_sans_probold_italic', sans-serif;
+  font-weight: 600;
+  letter-spacing: -1.5px;
 }
