@@ -13,16 +13,16 @@
         <div class="col-3">
           <div class="circle">
             <br />
-              You konw
+              You know
             <br />
-              you need
+              you live in
             <br />
-              to code
+              Discworld
             </div>
         </div>
 
         <div class="col-4 slogan">
-          Splurtzing out highfallutin quotes since 2018
+          Overheard in Ankh-Morpork
         </div>
 
         <div class="col-5 links">
@@ -35,7 +35,22 @@
     <br class="clear"/>
 
 
-
     <%= yield %>
+
+
+    <div class="footer">
+      <div class="container">
+        <p class="text-muted">
+          <div class="row">
+            <div class="col-6">
+              <%= link_to "This isn't enough, I need more!", "#", class: "next-quote" %>
+            </div>
+            <div class="col-6 footer-blurb">
+              Proudly hacked at the Unseen University by Mustrum Ridcully
+            </div>
+          </div>
+        </p>
+      </div>
+    </div>    
   </body>
 </html>
